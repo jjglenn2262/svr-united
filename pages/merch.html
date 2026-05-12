@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Merch &mdash; SVR-United.com</title>
+  <meta name="description" content="SVR merch — t-shirts, hats, stickers. Just the letters. Let people ask.">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .merch-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:20px; }
+    .merch-card { border-radius:var(--radius-lg); overflow:hidden; border:1px solid var(--gray-light); transition:var(--transition); }
+    .merch-card:hover { transform:translateY(-3px); box-shadow:0 12px 32px rgba(0,0,0,0.1); }
+    .merch-preview { aspect-ratio:1; display:flex; align-items:center; justify-content:center; flex-direction:column; }
+    .merch-info { padding:1.25rem; background:var(--white); border-top:1px solid var(--gray-light); }
+    .merch-name { font-size:0.95rem; font-weight:500; color:var(--navy); margin:0 0 0.3rem; }
+    .merch-desc { font-size:0.82rem; color:var(--gray-text); margin:0; line-height:1.5; }
+    .design-label { font-size:0.7rem; font-weight:500; letter-spacing:0.16em; text-transform:uppercase; color:var(--purple-mid); margin:2.5rem 0 0.5rem; }
+    .design-heading { font-family:var(--font-display); font-size:1.4rem; font-weight:700; color:var(--navy); margin:0 0 0.4rem; }
+    .design-sub { font-size:0.88rem; color:var(--gray-text); margin:0 0 1.5rem; }
+    .divider { height:0.5px; background:var(--gray-light); margin:2.5rem 0; }
+    .printify-note { background:var(--purple-ghost); border:1px solid rgba(127,119,221,0.3); border-radius:var(--radius-md); padding:1.5rem; margin:3rem 0; }
+    .printify-note h3 { font-size:0.95rem; font-weight:500; color:var(--purple); margin:0 0 0.5rem; }
+    .printify-note p { font-size:0.88rem; color:var(--gray-text); line-height:1.6; margin:0; }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="../index.html" class="nav-logo">SVR</a>
+  <div class="nav-links">
+    <a href="what-is-svr.html" class="nav-link">What is SVR?</a>
+    <a href="../index.html#issues" class="nav-link">The issues</a>
+    <a href="share.html" class="nav-link">Share</a>
+    <a href="guide.html" class="nav-link">Conversation guide</a>
+    <a href="sources.html" class="nav-link">Sources</a>
+    <a href="merch.html" class="nav-link active">Merch</a>
+  </div>
+  <div class="nav-toggle"><span></span><span></span><span></span></div>
+</nav>
+
+<section class="issue-hero">
+  <div class="issue-hero-inner">
+    <div class="issue-tag">Wear the movement</div>
+    <h1 class="issue-hero-title">SVR Merch</h1>
+    <p class="issue-hero-sub">Just the letters. No explanation. Let people ask. That&rsquo;s the whole point.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner">
+
+    <!-- DESIGN 1 -->
+    <div class="design-label">Design 1</div>
+    <div class="design-heading">Just SVR.</div>
+    <div class="design-sub">The mystery. Wear it. Let people ask. You become the ambassador.</div>
+    <div class="merch-grid">
+      <div class="merch-card">
+        <div class="merch-preview" style="background:#1a1a1a;">
+          <svg width="200" height="200" viewBox="0 0 200 200"><text x="100" y="118" text-anchor="middle" font-family="Georgia,serif" font-size="80" font-weight="700" fill="#ffffff" letter-spacing="5">SVR</text></svg>
+        </div>
+        <div class="merch-info"><p class="merch-name">Classic — black / white</p><p class="merch-desc">The signature look. Bold, clean, nothing else.</p></div>
+      </div>
+      <div class="merch-card">
+        <div class="merch-preview" style="background:#1e1a3a;">
+          <svg width="200" height="200" viewBox="0 0 200 200"><text x="100" y="118" text-anchor="middle" font-family="Georgia,serif" font-size="80" font-weight="700" fill="#AFA9EC" letter-spacing="5">SVR</text></svg>
+        </div>
+        <div class="merch-info"><p class="merch-name">Movement — navy / purple</p><p class="merch-desc">Feels like a cause. Strong visual identity.</p></div>
+      </div>
+      <div class="merch-card">
+        <div class="merch-preview" style="background:#3a4a2e;">
+          <svg width="200" height="200" viewBox="0 0 200 200"><text x="100" y="118" text-anchor="middle" font-family="Georgia,serif" font-size="80" font-weight="700" fill="#ffffff" letter-spacing="5">SVR</text></svg>
+        </div>
+        <div class="merch-info"><p class="merch-name">Crossover — olive / white</p><p class="merch-desc">Doesn&rsquo;t read political. Works in any room.</p></div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- DESIGN 2 -->
+    <div class="design-label">Design 2</div>
+    <div class="design-heading">What&rsquo;s your concern?</div>
+    <div class="design-sub">The conversation starter. The shirt that does the talking for you.</div>
+    <div class="merch-grid">
+      <div class="merch-card">
+        <div class="merch-preview" style="background:#1a1a1a;">
+          <svg width="200" height="200" viewBox="0 0 200 200">
+            <text x="100" y="54" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#aaaaaa" letter-spacing="1">What&apos;s your concern?</text>
+            <text x="100" y="122" text-anchor="middle" font-family="Georgia,serif" font-size="64" font-weight="700" fill="#ffffff" letter-spacing="4">SVR</text>
+            <text x="100" y="152" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#aaaaaa" letter-spacing="1">is the answer.</text>
+          </svg>
+        </div>
+        <div class="merch-info"><p class="merch-name">Statement — black</p><p class="merch-desc">Works at rallies and in crowds.</p></div>
+      </div>
+      <div class="merch-card">
+        <div class="merch-preview" style="background:#f5f3ee;">
+          <svg width="200" height="200" viewBox="0 0 200 200">
+            <text x="100" y="54" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#666660" letter-spacing="1">What&apos;s your concern?</text>
+            <text x="100" y="122" text-anchor="middle" font-family="Georgia,serif" font-size="64" font-weight="700" fill="#1a1a1a" letter-spacing="4">SVR</text>
+            <text x="100" y="152" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#666660" letter-spacing="1">is the answer.</text>
+          </svg>
+        </div>
+        <div class="merch-info"><p class="merch-name">Statement — natural</p><p class="merch-desc">Softer, approachable look.</p></div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- DESIGN 3 -->
+    <div class="design-label">Design 3</div>
+    <div class="design-heading">SVR Now.</div>
+    <div class="design-sub">Urgency baked right in. This moment matters.</div>
+    <div class="merch-grid">
+      <div class="merch-card">
+        <div class="merch-preview" style="background:#1a1a1a;">
+          <svg width="200" height="200" viewBox="0 0 200 200">
+            <text x="100" y="96" text-anchor="middle" font-family="Georgia,serif" font-size="58" font-weight="700" fill="#ffffff" letter-spacing="4">SVR</text>
+            <text x="100" y="136" text-anchor="middle" font-family="Georgia,serif" font-size="28" font-weight="700" fill="#AFA9EC" letter-spacing="6">NOW</text>
+          </svg>
+        </div>
+        <div class="merch-info"><p class="merch-name">SVR Now — black / purple</p><p class="merch-desc">Bold and urgent. The rallying cry.</p></div>
+      </div>
+      <div class="merch-card">
+        <div class="merch-preview" style="background:#1e1a3a;">
+          <svg width="200" height="200" viewBox="0 0 200 200">
+            <text x="100" y="96" text-anchor="middle" font-family="Georgia,serif" font-size="58" font-weight="700" fill="#ffffff" letter-spacing="4">SVR</text>
+            <text x="100" y="136" text-anchor="middle" font-family="Georgia,serif" font-size="28" font-weight="700" fill="#AFA9EC" letter-spacing="6">NOW</text>
+          </svg>
+        </div>
+        <div class="merch-info"><p class="merch-name">SVR Now — navy / purple</p><p class="merch-desc">Movement colorway. Strong identity.</p></div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- DESIGN 4 -->
+    <div class="design-label">Design 4</div>
+    <div class="design-heading">The open demands.</div>
+    <div class="design-sub">The provocateur. URL on top, three numbers with nothing after them. People have to go to the site to find out.</div>
+    <div class="merch-grid">
+      <div class="merch-card">
+        <div class="merch-preview" style="background:#1a1a1a;">
+          <svg width="210" height="210" viewBox="0 0 210 210">
+            <text x="105" y="40" text-anchor="middle" font-family="Georgia,serif" font-size="16" font-weight="700" fill="#7F77DD" letter-spacing="2">SVR-United.com</text>
+            <line x1="35" y1="52" x2="175" y2="52" stroke="#333333" stroke-width="0.5"/>
+            <text x="55" y="96" text-anchor="start" font-family="Georgia,serif" font-size="18" fill="#aaaaaa">1.</text>
+            <text x="55" y="134" text-anchor="start" font-family="Georgia,serif" font-size="18" fill="#aaaaaa">2.</text>
+            <text x="55" y="172" text-anchor="start" font-family="Georgia,serif" font-size="18" fill="#aaaaaa">3.</text>
+          </svg>
+        </div>
+        <div class="merch-info"><p class="merch-name">Open demands — black</p><p class="merch-desc">The most provocative design in the line. What are the demands? Go find out.</p></div>
+      </div>
+      <div class="merch-card">
+        <div class="merch-preview" style="background:#f5f3ee;">
+          <svg width="210" height="210" viewBox="0 0 210 210">
+            <text x="105" y="40" text-anchor="middle" font-family="Georgia,serif" font-size="16" font-weight="700" fill="#534AB7" letter-spacing="2">SVR-United.com</text>
+            <line x1="35" y1="52" x2="175" y2="52" stroke="#cccccc" stroke-width="0.5"/>
+            <text x="55" y="96" text-anchor="start" font-family="Georgia,serif" font-size="18" fill="#888888">1.</text>
+            <text x="55" y="134" text-anchor="start" font-family="Georgia,serif" font-size="18" fill="#888888">2.</text>
+            <text x="55" y="172" text-anchor="start" font-family="Georgia,serif" font-size="18" fill="#888888">3.</text>
+          </svg>
+        </div>
+        <div class="merch-info"><p class="merch-name">Open demands — natural</p><p class="merch-desc">Softer colorway. Same mystery.</p></div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- DESIGN 5 -->
+    <div class="design-label">Design 5</div>
+    <div class="design-heading">The full demands.</div>
+    <div class="design-sub">The platform on your chest. Every wearer drives traffic to SVR-United.com.</div>
+    <div class="merch-grid">
+      <div class="merch-card">
+        <div class="merch-preview" style="background:#1a1a1a;">
+          <svg width="210" height="210" viewBox="0 0 210 210">
+            <text x="105" y="40" text-anchor="middle" font-family="Georgia,serif" font-size="16" font-weight="700" fill="#7F77DD" letter-spacing="2">SVR-United.com</text>
+            <line x1="35" y1="52" x2="175" y2="52" stroke="#333333" stroke-width="0.5"/>
+            <text x="55" y="84" text-anchor="start" font-family="Georgia,serif" font-size="14" fill="#888888">1.</text>
+            <text x="72" y="84" text-anchor="start" font-family="Georgia,serif" font-size="14" fill="#dddddd">Money out of Politics</text>
+            <text x="55" y="116" text-anchor="start" font-family="Georgia,serif" font-size="14" fill="#888888">2.</text>
+            <text x="72" y="116" text-anchor="start" font-family="Georgia,serif" font-size="14" fill="#dddddd">Term Limits</text>
+            <text x="55" y="148" text-anchor="start" font-family="Georgia,serif" font-size="14" fill="#888888">3.</text>
+            <text x="72" y="148" text-anchor="start" font-family="Georgia,serif" font-size="14" fill="#dddddd">Real Gun Laws Reform</text>
+          </svg>
+        </div>
+        <div class="merch-info"><p class="merch-name">Full demands — black</p><p class="merch-desc">URL on top, three demands below. The complete statement.</p></div>
+      </div>
+      <div class="merch-card">
+        <div class="merch-preview" style="background:#f5f3ee;">
+          <svg width="210" height="210" viewBox="0 0 210 210">
+            <text x="105" y="40" text-anchor="middle" font-family="Georgia,serif" font-size="16" font-weight="700" fill="#534AB7" letter-spacing="2">SVR-United.com</text>
+            <line x1="35" y1="52" x2="175" y2="52" stroke="#cccccc" stroke-width="0.5"/>
+            <text x="55" y="84" text-anchor="start" font-family="Georgia,serif" font-size="14" fill="#888888">1.</text>
+            <text x="72" y="84" text-anchor="start" font-family="Georgia,serif" font-size="14" fill="#333333">Money out of Politics</text>
+            <text x="55" y="116" text-anchor="start" font-family="Georgia,serif" font-size="14" fill="#888888">2.</text>
+            <text x="72" y="116" text-anchor="start" font-family="Georgia,serif" font-size="14" fill="#333333">Term Limits</text>
+            <text x="55" y="148" text-anchor="start" font-family="Georgia,serif" font-size="14" fill="#888888">3.</text>
+            <text x="72" y="148" text-anchor="start" font-family="Georgia,serif" font-size="14" fill="#333333">Real Gun Laws Reform</text>
+          </svg>
+        </div>
+        <div class="merch-info"><p class="merch-name">Full demands — natural</p><p class="merch-desc">Softer colorway. Same powerful platform.</p></div>
+      </div>
+      <div class="merch-card">
+        <div class="merch-preview" style="background:#1e1a3a;">
+          <svg width="210" height="210" viewBox="0 0 210 210">
+            <text x="105" y="40" text-anchor="middle" font-family="Georgia,serif" font-size="16" font-weight="700" fill="#AFA9EC" letter-spacing="2">SVR-United.com</text>
+            <line x1="35" y1="52" x2="175" y2="52" stroke="#3C3489" stroke-width="0.5"/>
+            <text x="55" y="84" text-anchor="start" font-family="Georgia,serif" font-size="14" fill="#7F77DD">1.</text>
+            <text x="72" y="84" text-anchor="start" font-family="Georgia,serif" font-size="14" fill="#EEEDFE">Money out of Politics</text>
+            <text x="55" y="116" text-anchor="start" font-family="Georgia,serif" font-size="14" fill="#7F77DD">2.</text>
+            <text x="72" y="116" text-anchor="start" font-family="Georgia,serif" font-size="14" fill="#EEEDFE">Term Limits</text>
+            <text x="55" y="148" text-anchor="start" font-family="Georgia,serif" font-size="14" fill="#7F77DD">3.</text>
+            <text x="72" y="148" text-anchor="start" font-family="Georgia,serif" font-size="14" fill="#EEEDFE">Real Gun Laws Reform</text>
+          </svg>
+        </div>
+        <div class="merch-info"><p class="merch-name">Full demands — navy / purple</p><p class="merch-desc">Movement colorway. The most distinctive of the three.</p></div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- HAT -->
+    <div class="design-label">Hats &amp; accessories</div>
+    <div class="design-heading">Wear SVR everywhere.</div>
+    <div class="design-sub">Hats, stickers, bumper stickers. Just SVR. Let people ask.</div>
+    <div class="merch-grid">
+      <div class="merch-card">
+        <div class="merch-preview" style="background:#2c2c2a;">
+          <div style="background:#3a3830;border-radius:8px;padding:1.5rem 2.5rem;text-align:center;">
+            <svg width="120" height="60" viewBox="0 0 120 60">
+              <text x="60" y="44" text-anchor="middle" font-family="Georgia,serif" font-size="36" font-weight="700" fill="#ffffff" letter-spacing="3">SVR</text>
+            </svg>
+          </div>
+        </div>
+        <div class="merch-info"><p class="merch-name">Structured hat — embroidered</p><p class="merch-desc">Dark olive or black. SVR embroidered clean on the front.</p></div>
+      </div>
+      <div class="merch-card">
+        <div class="merch-preview" style="background:#f5f3ee;">
+          <div style="background:#1a1a1a;border-radius:4px;padding:0.75rem 2.5rem;text-align:center;">
+            <svg width="120" height="50" viewBox="0 0 120 50">
+              <text x="60" y="36" text-anchor="middle" font-family="Georgia,serif" font-size="30" font-weight="700" fill="#ffffff" letter-spacing="3">SVR</text>
+            </svg>
+          </div>
+        </div>
+        <div class="merch-info"><p class="merch-name">Bumper sticker</p><p class="merch-desc">Goes everywhere. Spreads SVR on every drive.</p></div>
+      </div>
+      <div class="merch-card">
+        <div class="merch-preview" style="background:#f5f3ee;">
+          <div style="width:120px;height:120px;background:#1a1a1a;border-radius:50%;display:flex;align-items:center;justify-content:center;">
+            <svg width="90" height="60" viewBox="0 0 90 60">
+              <text x="45" y="42" text-anchor="middle" font-family="Georgia,serif" font-size="32" font-weight="700" fill="#ffffff" letter-spacing="3">SVR</text>
+            </svg>
+          </div>
+        </div>
+        <div class="merch-info"><p class="merch-name">Circle sticker</p><p class="merch-desc">Laptops, water bottles, car windows. Spreads the mystery.</p></div>
+      </div>
+    </div>
+
+    <div class="printify-note" id="shop">
+      <h3>&#128679; Store coming soon</h3>
+      <p>The SVR store is being set up through Printify &mdash; a print-on-demand service that prints and ships every order directly to you. No inventory. Every purchase helps spread the movement. Check back soon, or <a href="share.html" style="color:var(--purple-mid);">share the ads</a> in the meantime.</p>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="footer-svr">SVR</div>
+  <div class="footer-tag">Stop Voting Republican.</div>
+  <div class="footer-links">
+    <a href="what-is-svr.html">What is SVR?</a>
+    <a href="../index.html#issues">The issues</a>
+    <a href="share.html">Share</a>
+    <a href="guide.html">Conversation guide</a>
+    <a href="merch.html">Merch</a>
+  </div>
+  <div class="footer-copy">SVR-United.com &mdash; A movement, not a party.</div>
+</footer>
+<script src="../js/main.js"></script>
+</body>
+</html>

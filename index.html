@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVR — A Movement. A Demand. A Voice.</title>
+  <meta name="description" content="We are not a party. We are a demand. Money out of politics. Term limits. Real gun laws. SVR.">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .manifesto { background:var(--navy); padding:5rem 2rem; position:relative; overflow:hidden; }
+    .manifesto::before { content:''; position:absolute; inset:0; background:radial-gradient(ellipse 70% 60% at 50% 100%,rgba(83,74,183,.12) 0%,transparent 70%); pointer-events:none; }
+    .manifesto-inner { max-width:760px; margin:0 auto; text-align:center; }
+    .manifesto-not-a-party { font-size:.72rem; font-weight:500; letter-spacing:.2em; text-transform:uppercase; color:var(--purple-pale); margin-bottom:2rem; }
+    .manifesto-line { font-family:var(--font-display); font-size:clamp(1.4rem,3.5vw,2rem); font-weight:700; color:var(--white); line-height:1.3; margin-bottom:1.5rem; }
+    .manifesto-body { font-size:1.05rem; color:var(--purple-ghost); line-height:1.8; margin-bottom:1.5rem; text-align:left; }
+    .demands { background:var(--navy-3); border:1px solid rgba(127,119,221,.25); border-radius:var(--radius-xl); padding:2.5rem; margin:2.5rem 0; text-align:left; }
+    .demands-label { font-size:.7rem; font-weight:500; letter-spacing:.18em; text-transform:uppercase; color:var(--purple-pale); margin-bottom:1.5rem; text-align:center; }
+    .demand { display:flex; align-items:flex-start; gap:1.25rem; margin-bottom:1.5rem; padding-bottom:1.5rem; border-bottom:1px solid rgba(127,119,221,.15); }
+    .demand:last-child { border-bottom:none; margin-bottom:0; padding-bottom:0; }
+    .demand-num { font-family:var(--font-display); font-size:2.2rem; font-weight:900; color:var(--purple-light); min-width:44px; line-height:1; padding-top:2px; }
+    .demand-title { font-size:1.05rem; font-weight:500; color:var(--white); margin-bottom:.3rem; }
+    .demand-sub { font-size:.88rem; color:var(--purple-pale); line-height:1.6; }
+    .manifesto-join { margin-top:2.5rem; padding-top:2.5rem; border-top:1px solid rgba(127,119,221,.2); }
+    .manifesto-join-text { font-size:1rem; color:var(--purple-pale); margin-bottom:1.5rem; }
+    .challenge { background:var(--navy-2); padding:5rem 2rem; text-align:center; }
+    .challenge-inner { max-width:720px; margin:0 auto; }
+    .challenge-body { font-size:1.1rem; color:var(--purple-ghost); line-height:1.8; margin-bottom:1.5rem; }
+    .challenge-bold { font-family:var(--font-display); font-size:clamp(1.3rem,3vw,1.8rem); font-weight:700; color:var(--white); margin:2rem 0; line-height:1.3; }
+    .svr-trinity { display:flex; gap:12px; justify-content:center; flex-wrap:wrap; margin-top:2.5rem; }
+    .svr-trinity-item { background:var(--navy-3); border:1px solid rgba(127,119,221,.3); border-radius:var(--radius-lg); padding:1.25rem 2rem; text-align:center; min-width:160px; }
+    .svr-trinity-verb { font-size:.75rem; font-weight:500; letter-spacing:.12em; text-transform:uppercase; color:var(--purple-pale); margin-bottom:.4rem; }
+    .svr-trinity-word { font-family:var(--font-display); font-size:1.8rem; font-weight:900; color:var(--white); letter-spacing:.08em; }
+    .reveal-v2 { background:var(--navy); padding:5rem 2rem; text-align:center; border-top:1px solid rgba(127,119,221,.15); }
+    .reveal-v2-inner { max-width:760px; margin:0 auto; }
+    .reveal-v2-lead { font-size:1rem; color:var(--purple-pale); margin-bottom:1rem; }
+    .reveal-v2-svr { font-family:var(--font-display); font-size:clamp(4rem,14vw,8rem); font-weight:900; color:var(--white); letter-spacing:.1em; line-height:1; margin-bottom:.4rem; }
+    .reveal-v2-stands { font-size:1.1rem; font-weight:500; color:var(--purple-pale); letter-spacing:.08em; margin-bottom:2rem; }
+    .reveal-v2-body { font-size:1rem; color:var(--purple-ghost); line-height:1.8; max-width:640px; margin:0 auto 1.5rem; }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="index.html" class="nav-logo">SVR</a>
+  <div class="nav-links">
+    <a href="pages/what-is-svr.html" class="nav-link">What is SVR?</a>
+    <a href="#issues" class="nav-link">The issues</a>
+    <a href="pages/share.html" class="nav-link">Share</a>
+    <a href="pages/guide.html" class="nav-link">Conversation guide</a>
+    <a href="pages/sources.html" class="nav-link">Sources</a>
+    <a href="pages/merch.html" class="nav-link">Merch</a>
+  </div>
+  <div class="nav-toggle"><span></span><span></span><span></span></div>
+</nav>
+
+<!-- HERO: JUST SVR -->
+<section class="hero" style="padding-bottom:3rem;">
+  <div class="hero-svr fade-up">SVR</div>
+  <div class="hero-answer fade-up delay-1">A movement. A demand. A voice.</div>
+</section>
+
+<!-- MANIFESTO -->
+<section class="manifesto">
+  <div class="manifesto-inner">
+    <div class="manifesto-not-a-party">We are not a party. We are not a candidate.</div>
+    <div class="manifesto-line">We are millions of ordinary Americans<br>who are done waiting.</div>
+    <p class="manifesto-body">We are done waiting for politicians to do what we elected them to do. Done waiting for change that never comes. Done watching the same problems get worse while the people we put in power collect checks from the people causing those problems.</p>
+    <p class="manifesto-body">We have three demands. They are not radical. They are not partisan. They are what the overwhelming majority of Americans &mdash; Republican, Democrat, and Independent &mdash; say they want when someone actually asks them.</p>
+
+    <div class="demands">
+      <div class="demands-label">Our three demands</div>
+      <div class="demand">
+        <div class="demand-num">1</div>
+        <div>
+          <div class="demand-title">Get money out of politics.</div>
+          <div class="demand-sub">Billionaires and corporations have bought our government. Dark money floods our elections. The people we elect answer to donors, not voters. Full disclosure. Public campaign financing. Citizens United overturned.</div>
+        </div>
+      </div>
+      <div class="demand">
+        <div class="demand-num">2</div>
+        <div>
+          <div class="demand-title">Term limits for Congress. Reform the Supreme Court.</div>
+          <div class="demand-sub">Career politicians who never face real accountability are not democracy. Lifetime appointments to the most powerful court in the land are not democracy. Power must return to the people, not the permanent political class.</div>
+        </div>
+      </div>
+      <div class="demand">
+        <div class="demand-num">3</div>
+        <div>
+          <div class="demand-title">Real gun laws. Now.</div>
+          <div class="demand-sub">Not a ban. Not a confiscation. Universal background checks. Red flag laws. Age limits on military-style weapons. Ninety percent of Americans &mdash; in every state, every party &mdash; support these measures. They have been blocked for decades. No more.</div>
+        </div>
+      </div>
+    </div>
+
+    <p class="manifesto-body">These are not complicated. They are not controversial. They have majority support in every poll, in every state, in every party.</p>
+    <p class="manifesto-body">And they have been blocked. Every single time. For decades.</p>
+    <div class="manifesto-line" style="margin-top:2rem;">We are done asking nicely.</div>
+    <p class="manifesto-body">We are joining together in one loud, unified voice that cannot be ignored. When we vote together &mdash; across issues, across states, across party lines &mdash; we become a force that changes what is possible.</p>
+    <p class="manifesto-body">We are not asking you to become a Democrat. We are asking you to look honestly at who has been blocking the things you say you want &mdash; and vote accordingly.</p>
+
+    <div class="manifesto-join">
+      <div class="manifesto-join-text">Before we tell you what SVR stands for &mdash; read what we&rsquo;ve put together. Look at the issues. Look at the votes. Look at the record. Judge for yourself.</div>
+      <a href="#issues" class="btn btn-primary">Read the issues &darr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- ISSUE SELECTOR -->
+<section class="section concern-section" id="issues">
+  <div class="section-inner">
+    <div class="section-eyebrow text-center">Nine issues. One pattern.</div>
+    <h2 class="section-heading text-center">What worries you most?</h2>
+    <p class="section-sub text-center" style="margin-left:auto;margin-right:auto;">Choose your concern. Read what we found. Then judge for yourself whether we&rsquo;ve made the case.</p>
+    <div class="issue-grid">
+      <a href="pages/issue-guns.html" class="issue-card">
+        <div class="issue-icon" style="background:#FCEBEB;">&#128680;</div>
+        <div class="issue-name">Gun violence</div>
+        <div class="issue-teaser">School shootings keep happening. Nothing changes.</div>
+      </a>
+      <a href="pages/issue-healthcare.html" class="issue-card">
+        <div class="issue-icon" style="background:#E1F5EE;">&#10084;</div>
+        <div class="issue-name">Healthcare</div>
+        <div class="issue-teaser">You have insurance. You still can&rsquo;t afford to get sick.</div>
+      </a>
+      <a href="pages/issue-climate.html" class="issue-card">
+        <div class="issue-icon" style="background:#EAF3DE;">&#127807;</div>
+        <div class="issue-name">Climate crisis</div>
+        <div class="issue-teaser">The floods and fires are getting worse every year.</div>
+      </a>
+      <a href="pages/issue-money.html" class="issue-card">
+        <div class="issue-icon" style="background:#EEEDFE;">&#128181;</div>
+        <div class="issue-name">Money in politics</div>
+        <div class="issue-teaser">Billionaires buy elections. Your vote gets drowned out.</div>
+      </a>
+      <a href="pages/issue-inequality.html" class="issue-card">
+        <div class="issue-icon" style="background:#FAEEDA;">&#128200;</div>
+        <div class="issue-name">Economic inequality</div>
+        <div class="issue-teaser">You work harder every year and have less to show for it.</div>
+      </a>
+      <a href="pages/issue-voting.html" class="issue-card">
+        <div class="issue-icon" style="background:#E6F1FB;">&#128499;</div>
+        <div class="issue-name">Voting rights</div>
+        <div class="issue-teaser">They&rsquo;re making it harder to vote every election cycle.</div>
+      </a>
+      <a href="pages/issue-rural.html" class="issue-card">
+        <div class="issue-icon" style="background:#EAF3DE;">&#127823;</div>
+        <div class="issue-name">Rural America &amp; farmers</div>
+        <div class="issue-teaser">Farmers vote Republican. Republican policies are killing family farms.</div>
+      </a>
+      <a href="pages/issue-immigration.html" class="issue-card">
+        <div class="issue-icon" style="background:#E6F1FB;">&#127968;</div>
+        <div class="issue-name">Immigration</div>
+        <div class="issue-teaser">They&rsquo;re people. And they make America stronger.</div>
+      </a>
+      <a href="pages/issue-economy.html" class="issue-card">
+        <div class="issue-icon" style="background:#FAEEDA;">&#128202;</div>
+        <div class="issue-name">The economy myth</div>
+        <div class="issue-teaser">Republicans say they&rsquo;re better for the economy. The data says otherwise.</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- THE CHALLENGE -->
+<section class="challenge">
+  <div class="challenge-inner">
+    <div class="section-eyebrow" style="color:var(--purple-pale);">The challenge</div>
+    <div class="challenge-bold">We have made the case.<br>Now it&rsquo;s your turn.</div>
+    <p class="challenge-body">We are asking you to honestly look at what we&rsquo;ve put together on these nine issues. Read the facts. Look at the votes. Look at the record of who has been blocking progress on every single thing you say you care about.</p>
+    <p class="challenge-body">Not with anger. Not with tribalism. With honesty.</p>
+    <p class="challenge-body">If we have made the case &mdash; if the evidence convinces you that one party has consistently stood in the way of the changes this country desperately needs at this specific moment in our history &mdash; then join us.</p>
+    <p class="challenge-body">You don&rsquo;t have to agree with everything. You don&rsquo;t have to become a Democrat. You just have to be willing to use your vote as a demand rather than a habit.</p>
+    <div class="challenge-bold" style="font-size:clamp(1rem,2vw,1.3rem);color:var(--purple-pale);">Because when enough of us do this together &mdash;<br>we cannot be ignored.</div>
+    <div class="svr-trinity">
+      <div class="svr-trinity-item"><div class="svr-trinity-verb">Say</div><div class="svr-trinity-word">SVR</div></div>
+      <div class="svr-trinity-item"><div class="svr-trinity-verb">Wear</div><div class="svr-trinity-word">SVR</div></div>
+      <div class="svr-trinity-item"><div class="svr-trinity-verb">Use</div><div class="svr-trinity-word">SVR</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- THE REVEAL -->
+<section class="reveal-v2">
+  <div class="reveal-v2-inner">
+    <div class="reveal-v2-lead">Now you know what we&rsquo;re demanding.<br>Here&rsquo;s who has been blocking it.</div>
+    <div class="reveal-v2-svr">SVR</div>
+    <div class="reveal-v2-stands">Stop Voting Republican.</div>
+    <p class="reveal-v2-body">Every issue on this site &mdash; gun violence, healthcare, climate, money in politics, economic inequality, voting rights, rural America, immigration, the economy &mdash; has one common thread. Republican votes have made every one of them worse, and blocked every serious attempt to fix them.</p>
+    <p class="reveal-v2-body">Not because Republicans are bad people. Because the Republican Party, as it exists today, has consistently chosen donors over voters, corporations over communities, and power over progress.</p>
+    <p class="reveal-v2-body">SVR is the answer. Not forever. Until things change.</p>
+    <div class="btn-row">
+      <a href="pages/what-is-svr.html" class="btn btn-primary">Read the full story</a>
+      <a href="pages/share.html" class="btn btn-outline">Share SVR</a>
+      <a href="pages/merch.html" class="btn btn-outline">Wear SVR</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-svr">SVR</div>
+  <div class="footer-tag">Stop Voting Republican.</div>
+  <div class="footer-links">
+    <a href="pages/what-is-svr.html">What is SVR?</a>
+    <a href="#issues">The issues</a>
+    <a href="pages/share.html">Share</a>
+    <a href="pages/guide.html">Conversation guide</a>
+    <a href="pages/merch.html">Merch</a>
+  </div>
+  <div class="footer-copy">SVR-United.com &mdash; A movement, not a party.</div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
